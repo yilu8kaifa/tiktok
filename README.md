@@ -86,11 +86,12 @@
 - Node.js 14+
 - Docker 23.0+
 - AWS CLI 1.27+
+### 需要跨境更多仓库请联系@yilu68
 
-### 部署流程
+### 部署流程这个一个买家端H5
 ```bash
-# 克隆代码仓库
-git clone https://github.com/your-repo.git
+# 克隆代码仓库https://github.com/yilu8kaifa/tiktok
+git clone 
 
 # 初始化环境
 mvn clean install -Dmaven.test.skip=true
@@ -100,3 +101,4 @@ docker-compose up -d
 
 # 访问地址
 http://localhost:8080/admin
+
